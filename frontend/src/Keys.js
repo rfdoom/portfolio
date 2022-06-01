@@ -3,3 +3,5 @@ const EMAIL_KEYS = {
   'template': 'template_kobaptd',
   'public': 'Toh_QkYOjbB5wLnej'
 }
+
+export default EMAIL_KEYS;

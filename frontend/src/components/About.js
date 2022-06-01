@@ -3,11 +3,9 @@ const About = () => {
     <section id='about'>
       <h1 className="intro">
         Hello, I'm Roderick Tremayne Flowers, Jr.
-        <br className="blah"/>
-        I enjoy building apps.
       </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?
+      <p className="intro-para">
+        I am a passionate Full-Stack Developer capable of building web applications with JavaScript/React.js/Python/Django/HTML5/CSS and a couple other libraries and frameworks. I am very goal-oriented and a people-pleaser. I enjoy working in teams of diverse individuals and learning from them in order to progress myself as a successful Developer.
       </p>
       <div>
         <a href="#contact">Contact Me</a>

@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-//import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
+import EMAIL_KEYS from '../Keys';
 
 const Contact = () => {
   const form = useRef();
@@ -7,24 +8,29 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault(); // to prevent the page from reloading
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm(EMAIL_KEYS.service, EMAIL_KEYS.template, form.current, EMAIL_KEYS.public)
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text); // should log 'OK'
+          alert('Message sent successfully! I\'ll get back to you shortly!');
+          e.target.reset();
       }, (error) => {
           console.log(error.text);
       });
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <section>
+      <h2>Like what you see? Contact me!</h2>
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
+    </section>
   );
 };
 
