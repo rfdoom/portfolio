@@ -5,7 +5,7 @@ const About = () => {
         Hello, I'm Roderick Tremayne Flowers, Jr.
       </h1>
       <p className="intro-para">
-        I am a passionate Full-Stack Developer capable of building web applications with JavaScript/React.js/Python/Django/HTML5/CSS and a couple other libraries and frameworks. I am very goal-oriented and a people-pleaser. I enjoy working in teams of diverse individuals and learning from them in order to progress myself as a successful Developer.
+        I was previously an Avionics Technician for the United States Military, and I've made the jump into becoming a Full-Stack Developer. Although I have skills in both front- and back-end technologies, I feel as though my passion lies on the client-side front-end of the development cycle. I am currently in school finishing my Bachelor's degree in Information Technology and I have completed the highly-rated coding bootcamp Code Platoon. I am very goal-oriented and a people-pleaser. I enjoy working in teams of diverse individuals and learning from them in order to progress myself as a successful Developer.
       </p>
       <div>
         <a href="#contact">Contact Me</a>
