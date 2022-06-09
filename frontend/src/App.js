@@ -1,18 +1,20 @@
 //import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Contact from './components/contact/Contact';
-import About from './components/about/About';
-import Blog from './components/Blog';
-import Projects from './components/Projects';
-import Skills from './components/skills/Skills';
+import Contact from './components/contact/Contact.jsx';
+import About from './components/about/About.jsx';
+import Experience from './components/experience/Experience.jsx';
+import Header from './components/header/Header.jsx';
+import Skills from './components/skills/Skills.jsx';
+import Navbar from './components/navbar/Navbar.jsx';
 
 function App() {
   return (
     <main className='text-gray-400 bg-gray-900 body-font'>
+      <Header />
+      <Navbar />
       <About />
-      <Blog />
       <Skills />
-      <Projects />
+      <Experience />
       <Contact />
     </main>
   );

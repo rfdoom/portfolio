@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import './Contact.css'
 import emailjs from '@emailjs/browser';
 import EMAIL_KEYS from '../../Keys';
 
@@ -19,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id='contact'>
       <h2>Like what you see? Contact me!</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
