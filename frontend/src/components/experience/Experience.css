@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* This changes the projects layout but not individual projects */
+#experience {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#experience-container > h1 {
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 3%;
+}
+
+.thumbnail {
+  border: 0.2rem solid black;
+  position: relative;
+  width: 400px;
+}
+
+.pimage {
+  display: block;
+  width: 100%;
+}
+
+.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center; /* vertical align */
+  align-items: center; /* horizontal align */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hover--blur {
+  backdrop-filter: blur(5px);
+}
+
+.hover > * { /* calling every child class within */
+ transform: translateY(20px);
+ transition: transform 0.3s;
+}
+
+.hover:hover {
+  opacity: 1;
+}
+
+.hover:hover > * {
+  transform: translateY(0);
+}
+
+.project-title {
+  font-size: 2em;
+}

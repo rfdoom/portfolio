@@ -20,17 +20,20 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <section id='contact-container'>
       <h2>Like what you see? Contact me!</h2>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+      <div className='contact-form'>
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name: </label>
+          <input id='form-name' type="text" name="user_name" />
+          <label>Email: </label>
+          <input id='form-email' type="email" name="user_email" />
+          <label>Message: </label>
+          <textarea id='form-message' name="message" rows='4' cols='50'/>
+          <input id='btn' type="submit" value="Send" />
+        </form>
+      </div>
+      
     </section>
   );
 };

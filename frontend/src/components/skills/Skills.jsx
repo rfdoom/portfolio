@@ -8,25 +8,20 @@ import cssLogo from '../../assets/cssLogo.png'
 
 const Skills = () => {
   return(
-    <section id='skills'>
-      <h2>Technological Skills I Possess (but not limited to):</h2>
-      <ul>
-        <li><img src={ javascriptLogo } alt='JavaScript'/>JavaScript (ES6)</li>
-        <li><img src={ pythonLogo } alt='Python'/>Python</li>
-        <li><img src={ htmlLogo } alt='HTML5'/>HTML 5</li>
-        <li><img src={ cssLogo } alt='CSS3'/>CSS 3</li>
-        <li><img src={ djangoLogo } alt='Django'/>Django</li>
-        <li><img src={ reactLogo } alt='React.js'/>React.js</li>
-      </ul>
-      <br />
-      <h2>Let's Not Forget My Soft Skills:</h2>
-      <ul>
-        <li>Great Communication</li>
-        <li>Valuable Teammember</li>
-        <li>Problem-Solver</li>
-        <li>Hard-Worker</li>
-        <li>Goal-Oriented</li>
-      </ul>
+    <section className='skills-container'>
+      <h2>Technological Skills I Possess</h2>
+      <div className='skills set-one'>
+        <img title='JavaSript (ES6)' className='img' src={ javascriptLogo } alt='JavaScript'/>
+        <img title='Python' className='img' src={ pythonLogo } alt='Python'/>
+        <img title='HTML5' className='img' src={ htmlLogo } alt='HTML5'/>
+        
+      </div>
+      <div className='skills set-two'>
+        <img title='CSS3' className='img' src={ cssLogo } alt='CSS3'/>
+        <img title='Django REST Framework' className='img' src={ djangoLogo } alt='Django'/>
+        <img title='React.js' className='img' src={ reactLogo } alt='React.js'/>
+      </div>
+        
     </section>
   )
 }

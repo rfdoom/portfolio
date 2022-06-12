@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:ital,wght@1,300&family=Yellowtail&display=swap');
+
 /* ======== Media Queries (Medium Devices) ======== */
 @media screen and (max-width: 1024px) {
   .container {
@@ -8,4 +10,52 @@
 /* ======== Media Queries (Small Devices) ======== */
 @media screen and (max-width: 600px) {
   
+}
+
+/* ======== Main Design ========= */
+
+
+
+.header {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Architects Daughter', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: normal;
+  padding: 2% 0 2% 0;
+}
+
+
+.links {
+  font-size: x-large;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2em;
+  padding-top: 2%;
+}
+
+#linkedin {
+  color: rgb(60, 60, 170);
+}
+#github {
+  color: rgb(60, 60, 170);
+}
+#resume {
+  color: rgb(60, 60, 170);
+}
+
+.myname {
+  color: cyan;
+  font-weight: 800;
+}
+
+.hello {
+  font-size: x-large;
+  font-weight: 800;
 }

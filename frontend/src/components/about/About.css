@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+  border: 0.2rem solid black;
+  display: inline-block;
+  padding: 2% 25% 2% 25%;
+  font-size: 1.25em;
+  text-align: left;
+  background-color: darkblue
+}

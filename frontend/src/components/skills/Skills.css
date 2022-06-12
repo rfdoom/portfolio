@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills img {
+  padding: 0 2% 3% 2%;
+  max-width: 15%;
+}
+
+.skills span {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-container > h2 {
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
