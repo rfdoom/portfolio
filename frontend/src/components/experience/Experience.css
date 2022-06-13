@@ -19,12 +19,14 @@
 .thumbnail {
   border: 0.2rem solid black;
   position: relative;
-  width: 400px;
+  width: 25em;
+  height: 15em;
 }
 
 .pimage {
   display: block;
   width: 100%;
+  height: 100%;
 }
 
 .hover {

@@ -35,7 +35,10 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: gray;
+  background-image: url('./assets/fixedbackground.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
   color: var(--color-var-white);
   line-height: 1.7;
   background-size: 100px 50px;

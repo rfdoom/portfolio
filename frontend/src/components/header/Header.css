@@ -27,6 +27,9 @@
   align-items: center;
   line-height: normal;
   padding: 2% 0 2% 0;
+  background-image: url(../../assets/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 
@@ -37,7 +40,7 @@
   flex-direction: row;
   justify-content: space-around;
   font-size: 2em;
-  padding-top: 2%;
+  margin-top: 3%;
 }
 
 #linkedin {
@@ -58,4 +61,15 @@
 .hello {
   font-size: x-large;
   font-weight: 800;
+}
+
+#prophoto {
+  width: 20em;
+  height: 20em;
+  border-radius: 40%;
+  display: flex;
+  justify-content: right;
+  margin-top: 3%;
+  border: 0.2rem solid rgb(169, 138, 98);
+  box-shadow: 4px 4px 10px black;
 }

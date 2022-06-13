@@ -6,9 +6,17 @@
 
 .about-container {
   border: 0.2rem solid black;
-  display: inline-block;
-  padding: 2% 25% 2% 25%;
+  display: flex;
+  padding: 0 0 0 0;
+  margin: 5% 0 0 25%;
   font-size: 1.25em;
-  text-align: left;
-  background-color: darkblue
+  text-align: center;
+  background-color: darkblue;
+  width: 50%;
+  height: 16em;
+  border-radius: 5em;
+}
+
+.intro-para {
+
 }

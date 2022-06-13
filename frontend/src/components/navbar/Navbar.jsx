@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <nav>
       <a href='#' title='Back To The Top'><AiFillHome /></a>
-      <a href='#about' title='Learn About Me'><BsFillPersonFill /></a>
-      <a href='#skills' title='Check My Skills'><GiSkills /></a>
-      <a href='#experience' title='See What I Have Worked On' ><GiBrain /></a>
-      <a href='#contact' title='Get In Touch With Me'><MdContactMail /></a>
+      <a href='#about-container' title='Learn About Me'><BsFillPersonFill /></a>
+      <a href='#skills-container' title='Check My Skills'><GiSkills /></a>
+      <a href='#experience-container' title='See What I Have Worked On' ><GiBrain /></a>
+      <a href='#contact-container' title='Get In Touch With Me'><MdContactMail /></a>
     </nav>
   )
 }

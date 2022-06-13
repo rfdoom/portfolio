@@ -3,6 +3,7 @@ import './Header.css'
 import resume from '../../assets/resume.pdf'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { FaNewspaper } from 'react-icons/fa'
+import professionallphoto from '../../assets/professionalphoto.jpeg'
 
 const Header = () => {
   return (
@@ -11,6 +12,7 @@ const Header = () => {
         <h3 className='hello'>Hello, my name is</h3>
         <h1 className='myname'>Roderick Tremayne Flowers, Jr</h1>
         <h3 className='hello'>And I would like to solve your problems!</h3>
+        <img src={ professionallphoto } alt='prophoto' id='prophoto'/>
 
           <div className='links'> 
             <a id='linkedin' href='https://www.linkedin.com/in/roderick-flowers-3a921821b/' title='LinkedIn' target='_blank' rel='noreferrer'><BsLinkedin /></a>
