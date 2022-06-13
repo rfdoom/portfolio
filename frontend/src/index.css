@@ -35,13 +35,13 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url('./assets/fixedbackground.jpeg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-image: url('./assets/space-background.jpeg');
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--color-var-white);
   line-height: 1.7;
-  background-size: 100px 50px;
 }
 
 /*========General Styling========*/

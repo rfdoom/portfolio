@@ -27,7 +27,7 @@
   align-items: center;
   line-height: normal;
   padding: 2% 0 2% 0;
-  background-image: url(../../assets/background.jpeg);
+  background-image: url('../../assets/fixedbackground.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -44,13 +44,13 @@
 }
 
 #linkedin {
-  color: rgb(60, 60, 170);
+  color: white;
 }
 #github {
-  color: rgb(60, 60, 170);
+  color: white;
 }
 #resume {
-  color: rgb(60, 60, 170);
+  color: white;
 }
 
 .myname {
